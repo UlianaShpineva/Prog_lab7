@@ -1,0 +1,218 @@
+[
+  {
+    "id": 0,
+    "name": "sdvljsnlvd",
+    "coordinates": {
+      "x": 324234,
+      "y": -12313123
+    },
+    "creationDate": "2023-03-15T18:29:18.2992795+03:00[Europe/Moscow]",
+    "studentsCount": 123112312,
+    "expelledStudents": 1123123223,
+    "transferredStudents": 123123,
+    "formOfEducation": "EVENING_CLASSES",
+    "groupAdmin": {
+      "name": "241525",
+      "passportID": "JGMG",
+      "nationality": "USA",
+      "location": {
+        "x": -123123,
+        "y": 13123,
+        "z": 1.24115325465879E14,
+        "name": "FDG"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "oooooooooooooo",
+    "coordinates": {
+      "x": 5,
+      "y": 5
+    },
+    "creationDate": "2023-04-26T14:04:58.8870186+03:00[Europe/Moscow]",
+    "studentsCount": 55,
+    "expelledStudents": 5,
+    "transferredStudents": 5,
+    "formOfEducation": "EVENING_CLASSES",
+    "groupAdmin": {
+      "name": "oooooooo",
+      "passportID": "5555",
+      "nationality": "USA",
+      "location": {
+        "x": 5,
+        "y": 55,
+        "z": 5.0,
+        "name": "oooooooo"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "e",
+    "coordinates": {
+      "x": 2,
+      "y": 2
+    },
+    "creationDate": "2023-05-03T16:24:13.7878824+03:00[Europe/Moscow]",
+    "studentsCount": 2,
+    "expelledStudents": 2,
+    "transferredStudents": 2,
+    "formOfEducation": "EVENING_CLASSES",
+    "groupAdmin": {
+      "name": "e",
+      "passportID": "3",
+      "nationality": "USA",
+      "location": {
+        "x": 3,
+        "y": 3,
+        "z": 3.0,
+        "name": "3"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "name",
+    "coordinates": {
+      "x": 5,
+      "y": 5
+    },
+    "creationDate": "2023-05-03T16:25:14.3110271+03:00[Europe/Moscow]",
+    "studentsCount": 5,
+    "expelledStudents": 5,
+    "transferredStudents": 6,
+    "formOfEducation": "FULL_TIME_EDUCATION",
+    "groupAdmin": {
+      "name": "Admin",
+      "passportID": "123123123",
+      "nationality": "USA",
+      "location": {
+        "x": 1,
+        "y": 1,
+        "z": 1.0,
+        "name": "1"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "ddddddd",
+    "coordinates": {
+      "x": 4,
+      "y": 4
+    },
+    "creationDate": "2023-05-03T16:34:52.7194107+03:00[Europe/Moscow]",
+    "studentsCount": 4,
+    "expelledStudents": 4,
+    "transferredStudents": 4,
+    "formOfEducation": "EVENING_CLASSES",
+    "groupAdmin": {
+      "name": "t",
+      "passportID": "4",
+      "nationality": "USA",
+      "location": {
+        "x": 4,
+        "y": 4,
+        "z": 4.0,
+        "name": "4"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "name",
+    "coordinates": {
+      "x": 5,
+      "y": 5
+    },
+    "creationDate": "2023-05-03T16:54:22.7771139+03:00[Europe/Moscow]",
+    "studentsCount": 5,
+    "expelledStudents": 5,
+    "transferredStudents": 6,
+    "formOfEducation": "FULL_TIME_EDUCATION",
+    "groupAdmin": {
+      "name": "Admin",
+      "passportID": "123123123",
+      "nationality": "USA",
+      "location": {
+        "x": 1,
+        "y": 1,
+        "z": 1.0,
+        "name": "1"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "name",
+    "coordinates": {
+      "x": 5,
+      "y": 5
+    },
+    "creationDate": "2023-05-03T16:54:22.8361255+03:00[Europe/Moscow]",
+    "studentsCount": 5,
+    "expelledStudents": 5,
+    "transferredStudents": 6,
+    "formOfEducation": "FULL_TIME_EDUCATION",
+    "groupAdmin": {
+      "name": "Admin",
+      "passportID": "123123123",
+      "nationality": "USA",
+      "location": {
+        "x": 1,
+        "y": 1,
+        "z": 1.0,
+        "name": "1"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "name",
+    "coordinates": {
+      "x": 5,
+      "y": 5
+    },
+    "creationDate": "2023-05-04T10:41:34.4147628+03:00[Europe/Moscow]",
+    "studentsCount": 5,
+    "expelledStudents": 5,
+    "transferredStudents": 6,
+    "formOfEducation": "FULL_TIME_EDUCATION",
+    "groupAdmin": {
+      "name": "Admin",
+      "passportID": "123123123",
+      "nationality": "USA",
+      "location": {
+        "x": 1,
+        "y": 1,
+        "z": 1.0,
+        "name": "1"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "name",
+    "coordinates": {
+      "x": 5,
+      "y": 5
+    },
+    "creationDate": "2023-05-04T10:41:34.4697724+03:00[Europe/Moscow]",
+    "studentsCount": 5,
+    "expelledStudents": 5,
+    "transferredStudents": 6,
+    "formOfEducation": "FULL_TIME_EDUCATION",
+    "groupAdmin": {
+      "name": "Admin",
+      "passportID": "123123123",
+      "nationality": "USA",
+      "location": {
+        "x": 1,
+        "y": 1,
+        "z": 1.0,
+        "name": "1"
+      }
+    }
+  }
+]
