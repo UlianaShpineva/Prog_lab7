@@ -19,9 +19,9 @@ public class FutureManager {
 
     public static void checkAllFutures(){
         if(!fixedThreadPoolFutures.isEmpty()) {
-//            main.App.rootLogger.debug("------------------------СПИСОК ВСЕХ ПОТОКОВ---------------------------");
+//            main.main.App.rootLogger.debug("------------------------СПИСОК ВСЕХ ПОТОКОВ---------------------------");
             fixedThreadPoolFutures.forEach(s -> futureManagerLogger.debug(s.toString()));
-//            main.App.rootLogger.debug("-------------------------------КОНЕЦ----------------------------------");
+//            main.main.App.rootLogger.debug("-------------------------------КОНЕЦ----------------------------------");
         }
         fixedThreadPoolFutures.stream()
                 .filter(Future::isDone)

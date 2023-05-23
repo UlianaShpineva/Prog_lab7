@@ -1,3 +1,5 @@
+package main;
+
 import console.Console;
 import utility.Client;
 import utility.RuntimeManager;

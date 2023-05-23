@@ -5,13 +5,13 @@ utility\ZonedDateTimeAdapter.class
 forms\Form.class
 utility\RuntimeManager.class
 forms\CoordinatesForm.class
-App.class
 forms\LocationForm.class
 utility\RuntimeManager$1.class
 forms\FormOfEducationForm.class
 utility\FileManager.class
 console\Executable.class
 console\BlankConsole.class
+main\App.class
 console\Printable.class
 forms\StudyGroupForm.class
 utility\ScannerManager.class
