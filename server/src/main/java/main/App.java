@@ -28,13 +28,7 @@ public class App {
     public static Logger logger = LogManager.getLogger(App.class);
     public static void main(String[] args) {
         Console console = new Console();
-        if(args.length != 1){
-            console.printError("Поместите путь в аргументы командной строки!");
-            return;
-        }
-        String fileName = args[0];
 
-//        FileManager fileManager = new FileManager(console, fileName);
         CollectionManager collectionManager = new CollectionManager();
         CommandManager commandManager = new CommandManager(DatabaseHandler.getDatabaseManager());
 
