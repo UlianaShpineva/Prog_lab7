@@ -1,13 +1,12 @@
 package commands;
 
-import console.Console;
 import exceptions.IllegalArgument;
 import managers.CollectionManager;
+import models.StudyGroup;
 import network.Request;
 import network.Response;
 import network.ResponseStatus;
 import utility.DatabaseHandler;
-import models.StudyGroup;
 
 import java.util.List;
 

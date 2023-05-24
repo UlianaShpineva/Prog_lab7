@@ -2,7 +2,6 @@ package commands;
 
 import exceptions.IllegalArgument;
 import managers.CollectionManager;
-import models.StudyGroup;
 import network.Request;
 import network.Response;
 import network.ResponseStatus;

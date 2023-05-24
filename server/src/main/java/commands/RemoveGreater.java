@@ -1,6 +1,5 @@
 package commands;
 
-import console.Console;
 import exceptions.IllegalArgument;
 import managers.CollectionManager;
 import models.StudyGroup;
@@ -11,7 +10,6 @@ import utility.DatabaseHandler;
 
 import java.util.Collection;
 import java.util.Objects;
-import java.util.stream.Collectors;
 
 /**
  * Команда 'remove_greater'

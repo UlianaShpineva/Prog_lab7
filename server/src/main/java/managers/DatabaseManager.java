@@ -1,23 +1,21 @@
 package managers;
 
+import main.App;
+import models.*;
+import network.User;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.sql.*;
-import java.time.LocalDateTime;
 import java.time.ZoneId;
-import java.time.ZonedDateTime;
 import java.util.ArrayDeque;
 import java.util.List;
 import java.util.Properties;
 import java.util.Random;
-
-import network.User;
-import main.App;
-import models.*;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class DatabaseManager {
     private Connection connection;

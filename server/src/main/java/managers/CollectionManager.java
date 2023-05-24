@@ -1,15 +1,17 @@
 package managers;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import utility.Console;
 import exceptions.InvalidForm;
 import models.StudyGroup;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import utility.DatabaseHandler;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.List;
+import java.util.TreeSet;
 
 /**
  * Класс для работы с коллекцией
@@ -21,15 +23,14 @@ public class CollectionManager {
             return s1.compareTo(s2);
         }
     });
-//    private final FileManager fileManager;
+
     /**
      * Дата создания коллекции
      */
     private LocalDateTime lastInitTime;
     static final Logger collectionManagerLogger = LogManager.getLogger(CollectionManager.class);
 
-    public CollectionManager(){ //FileManager fileManager) {
-//        this.fileManager = fileManager;
+    public CollectionManager(){
         this.lastInitTime = LocalDateTime.now();
 
         collection.addAll(DatabaseHandler.getDatabaseManager().loadCollection());

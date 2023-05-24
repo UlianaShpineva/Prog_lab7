@@ -1,17 +1,16 @@
 package main;
 
 import commands.*;
-import managers.DatabaseManager;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import utility.Console;
 import managers.CollectionManager;
 import managers.CommandManager;
-import managers.FileManager;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import utility.DatabaseHandler;
 import utility.DatagramServer;
 
-import java.net.*;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.net.UnknownHostException;
 
 public class App {
     public static final String HASHING_ALGORITHM = "SHA-1";
@@ -21,13 +20,10 @@ public class App {
 
 
 
-
-    private Console console;
     public static int port = 6094;
     public static final int connection_timeout = 60 * 1000;
     public static Logger logger = LogManager.getLogger(App.class);
     public static void main(String[] args) {
-        Console console = new Console();
 
         CollectionManager collectionManager = new CollectionManager();
         CommandManager commandManager = new CommandManager(DatabaseHandler.getDatabaseManager());
@@ -39,7 +35,7 @@ public class App {
         commandManager.register(new Update(collectionManager));
         commandManager.register(new RemoveById(collectionManager));
         commandManager.register(new Clear(collectionManager));
-        commandManager.register(new ExecuteScript());//fileManager));
+        commandManager.register(new ExecuteScript());
         commandManager.register(new Exit());
         commandManager.register(new AddIfMax(collectionManager));
         commandManager.register(new AddIfMin(collectionManager));
@@ -50,7 +46,6 @@ public class App {
         commandManager.register(new Register(DatabaseHandler.getDatabaseManager()));
         commandManager.register(new Ping());
 
-//        RequestHandler requestHandler = new RequestHandler(commandManager);
         DatagramServer server = null;
         try {
             server = new DatagramServer(InetAddress.getLocalHost(), port, connection_timeout, commandManager, DatabaseHandler.getDatabaseManager());

@@ -1,6 +1,5 @@
 package commands;
 
-import console.Console;
 import exceptions.IllegalArgument;
 import managers.CollectionManager;
 import models.StudyGroup;

@@ -1,11 +1,9 @@
 package commands;
 
 import exceptions.IllegalArgument;
-import managers.FileManager;
 import network.Request;
 import network.Response;
 import network.ResponseStatus;
-import utility.RuntimeManager;
 
 
 /**
@@ -26,11 +24,6 @@ public class ExecuteScript extends Command {
 
     @Override
     public Response execute(Request request) throws IllegalArgument {
-//        if (request.getArgs() == null || request.getArgs().isEmpty()) {
-//            return new Response(ResponseStatus.ERROR, "Файл не найден");
-//        }
-//        String fileName = (request.getArgs().trim());
-//        return new Response(ResponseStatus.EXECUTE_SCRIPT, fileName);
         if (request.getArgs().isBlank()) throw new IllegalArgument();
         return new Response(ResponseStatus.EXECUTE_SCRIPT, request.getArgs());
     }

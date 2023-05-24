@@ -1,6 +1,5 @@
 package utility;
 
-import java.net.InetAddress;
 import java.net.SocketAddress;
 
 public class Pair {
