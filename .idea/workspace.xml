@@ -6,33 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba951b2-df2d-47ec-a1c1-32819886c663" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/utility/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/utility/ZonedDateTimeAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/commands/AddElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/commands/AddElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/commands/AverageOfExpelledStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/commands/AverageOfExpelledStudents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/commands/Clear.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/commands/Clear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/commands/ExecuteScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/commands/ExecuteScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/commands/RemoveGreater.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/commands/RemoveGreater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/commands/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/main/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/main/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/CollectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManagerPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManagerPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/DatabaseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/FileManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/FutureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/FutureManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/ZonedDateTimeAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/utility/DatagramServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/utility/DatagramServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/utility/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/utility/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/commands/ExecuteScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/commands/ExecuteScript.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/main/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/main/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/CollectionManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/CollectionManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/CollectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/CollectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/ConnectionManagerPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/ConnectionManagerPool.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/DatabaseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/DatabaseManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/FileManager$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/utility/DatagramServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/utility/DatagramServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$lab7.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab7.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab7.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +92,7 @@
       <updated>1684855413974</updated>
       <workItem from="1684855415679" duration="6339000" />
       <workItem from="1684874293012" duration="1088000" />
-      <workItem from="1684926499725" duration="3846000" />
+      <workItem from="1684926499725" duration="5358000" />
     </task>
     <servers />
   </component>

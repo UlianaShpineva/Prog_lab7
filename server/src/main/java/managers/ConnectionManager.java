@@ -97,7 +97,7 @@ public class ConnectionManager implements Runnable {
         byte[] res = new byte[0];
         SocketAddress addr = null;
         Pair pair = new Pair(res, addr);
-        byte[] buffer = new byte[65507];
+        byte[] buffer = new byte[655070];
         DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
         socket.receive(packet);
         addr = packet.getSocketAddress();
