@@ -85,11 +85,11 @@ public class Person implements Validatable, Serializable {
 
     @Override
     public String toString() {
-        return "models.Person{" + '\n' +
-                "name = " + name + '\n' +
-                "passportID = " + passportID + '\n' +
-                "nationality = " + nationality + '\n' +
-                "location = " + location + '\n' +
-                '}';
+        return "Person {" + '\n' +
+                '\t' + '\t' + "name = " + name + '\n' +
+                '\t' + '\t' + "passportID = " + passportID + '\n' +
+                '\t' + '\t' + "nationality = " + nationality + '\n' +
+                '\t' + '\t' + "location = " + location + '\n' +
+                '\t' + '}';
     }
 }

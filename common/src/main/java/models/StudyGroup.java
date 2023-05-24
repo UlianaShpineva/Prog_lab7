@@ -218,16 +218,17 @@ public class StudyGroup implements Validatable, Comparable<StudyGroup>, Serializ
 
     @Override
     public String toString() {
-        return "models.StudyGroup{" + '\n' +
-                "id = " + id + '\n' +
-                "name = " + name + '\n' +
-                "coordinates = " + coordinates + '\n' +
-                "creationDate = " + creationDate + '\n' +
-                "studentsCount = " + studentsCount + '\n' + '\n' +
-                "expelledStudents = " + expelledStudents + '\n' +
-                "transferredStudents = " + transferredStudents + '\n' +
-                "formOfEducation = " + formOfEducation + '\n' +
-                "groupAdmin = " + groupAdmin + '\n' +
+        return '\n' + "StudyGroup {" + '\n' +
+                '\t' + "id = " + id + '\n' +
+                '\t' + "name = " + name + '\n' +
+                '\t' + "coordinates = " + coordinates + '\n' +
+                '\t' + "creationDate = " + creationDate + '\n' +
+                '\t' + "studentsCount = " + studentsCount + '\n' +
+                '\t' + "expelledStudents = " + expelledStudents + '\n' +
+                '\t' + "transferredStudents = " + transferredStudents + '\n' +
+                '\t' + "formOfEducation = " + formOfEducation + '\n' +
+                '\t' + "groupAdmin = " + groupAdmin + '\n' +
+                '\t' + "user = " + userLogin + '\n' +
                 '}';
     }
 }

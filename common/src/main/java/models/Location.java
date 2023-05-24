@@ -75,11 +75,11 @@ public class Location implements Validatable, Serializable {
 
     @Override
     public String toString() {
-        return "models.Location{" + '\n' +
-                "x = " + x + '\n' +
-                "y = " + y + '\n' +
-                "z = " + z + '\n' +
-                "name = " + name + '\n' +
-                '}';
+        return "Location {" + '\n' +
+                '\t' + '\t' + '\t' + "x = " + x + '\n' +
+                '\t' + '\t' + '\t' + "y = " + y + '\n' +
+                '\t' + '\t' + '\t' + "z = " + z + '\n' +
+                '\t' + '\t' + '\t' + "name = " + name + '\n' +
+                '\t' + '\t' + '}';
     }
 }
