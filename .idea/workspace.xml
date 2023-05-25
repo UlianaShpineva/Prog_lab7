@@ -6,13 +6,26 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba951b2-df2d-47ec-a1c1-32819886c663" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7.docx" beforeDir="false" afterPath="$PROJECT_DIR$/lab7.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManagerPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManagerPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/FutureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/FutureManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/utility/DatagramServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/utility/DatagramServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/utility/RequestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/utility/RequestHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/ConnectionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/FutureManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/FutureManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/utility/DatagramServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/utility/DatagramServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,8 +58,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"

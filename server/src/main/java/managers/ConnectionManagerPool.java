@@ -1,6 +1,10 @@
 package managers;
 
 import network.Response;
+import utility.Pair;
 
-public record ConnectionManagerPool(Response response){
+import java.net.DatagramSocket;
+import java.net.SocketAddress;
+
+public record ConnectionManagerPool(Response response, DatagramSocket socket, SocketAddress socketAddress){
 }

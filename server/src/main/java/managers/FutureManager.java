@@ -1,7 +1,9 @@
 package managers;
 
+import exceptions.DisconnectClient;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import utility.DatagramServer;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -17,7 +19,7 @@ public class FutureManager {
         fixedThreadPoolFutures.add(future);
     }
 
-    public static void checkAllFutures(){
+    public static void checkAllFutures() {
         if(!fixedThreadPoolFutures.isEmpty()) {
             fixedThreadPoolFutures.forEach(s -> futureManagerLogger.debug(s.toString()));
         }
@@ -27,6 +29,7 @@ public class FutureManager {
                     try {
                         ConnectionManager.submitNewResponse(f.get());
 //                        futureManagerLogger.info( + " обработан");
+//                        ConnectionManager.close();
                     } catch (InterruptedException | ExecutionException e) {
                         e.printStackTrace();
                     }

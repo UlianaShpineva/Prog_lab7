@@ -17,7 +17,7 @@ import java.util.concurrent.*;
 public class ConnectionManager implements Runnable {
     private final CommandManager commandManager;
     private final ExecutorService fixedThreadPool = Executors.newFixedThreadPool(8);
-    private static DatagramSocket socket;
+    private DatagramSocket socket;
     private static SocketAddress clientAddr;
     private final DatabaseManager databaseManager;
     static final Logger connectionManagerLogger = LogManager.getLogger(ConnectionManager.class);
@@ -28,9 +28,9 @@ public class ConnectionManager implements Runnable {
         this.databaseManager = databaseManager;
     }
 
-    public static SocketAddress getClientAddr() {
-        return clientAddr;
-    }
+//    public static SocketAddress getClientAddr() {
+//        return clientAddr;
+//    }
 
     @Override
     public void run() {
@@ -66,9 +66,9 @@ public class ConnectionManager implements Runnable {
         if(!databaseManager.confirmUser(request.getUser()) && !request.getCommandName().equals("register")){
             connectionManagerLogger.info("Юзер не одобрен");
             response = new Response(ResponseStatus.LOGIN_FAILED, "Неверный пользователь!");
-            submitNewResponse(new ConnectionManagerPool(response));
+            submitNewResponse(new ConnectionManagerPool(response, socket, pair.getAddr()));
         } else {
-            FutureManager.addNewFixedThreadPoolFuture(fixedThreadPool.submit(new RequestHandler(commandManager, request)));
+            FutureManager.addNewFixedThreadPoolFuture(fixedThreadPool.submit(new RequestHandler(commandManager, request, socket, pair.getAddr())));
         }
     }
 
@@ -81,13 +81,13 @@ public class ConnectionManager implements Runnable {
                 oo.flush();
                 oo.close();
             }catch (IOException e) {
-                System.out.println(e);
+//                System.out.println(e);
             }
             byte[] data = bStream.toByteArray();
 
             try {
-                sendData(data, getClientAddr());
-                connectionManagerLogger.info("Отправлен ответ. IP: " + getClientAddr().toString());
+                sendData(data, connectionManagerPool.socketAddress(), connectionManagerPool.socket());
+                connectionManagerLogger.info("Отправлен ответ. IP: " + connectionManagerPool.socketAddress().toString());
             } catch (Exception e) {
             }
         }).start();
@@ -97,18 +97,18 @@ public class ConnectionManager implements Runnable {
         byte[] res = new byte[0];
         SocketAddress addr = null;
         Pair pair = new Pair(res, addr);
-        byte[] buffer = new byte[655070];
+        byte[] buffer = new byte[65507];
         DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
         socket.receive(packet);
         addr = packet.getSocketAddress();
         res = buffer;
-
         pair.setDataAndAddr(res, addr);
         return  pair;
     }
 
-    public static void sendData(byte[] data, SocketAddress addr) throws IOException {
+    public static void sendData(byte[] data, SocketAddress addr, DatagramSocket socket) throws IOException {
         DatagramPacket packet = new DatagramPacket(data, data.length, addr);
         socket.send(packet);
     }
+
 }

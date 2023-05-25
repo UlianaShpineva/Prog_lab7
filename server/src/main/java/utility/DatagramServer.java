@@ -1,5 +1,6 @@
 package utility;
 
+import exceptions.DisconnectClient;
 import managers.CommandManager;
 import managers.ConnectionManager;
 import managers.DatabaseManager;
@@ -34,6 +35,9 @@ public class DatagramServer {
     public InetSocketAddress getAddr() {
         return addr;
     }
+    public DatagramSocket getSocket() {
+        return socket;
+    }
 
     public void run(){
         while (true){
@@ -48,5 +52,9 @@ public class DatagramServer {
 
     public void close() {
         socket.close();
+    }
+
+    public void disconnectFromClient() {
+        socket.disconnect();
     }
 }
