@@ -1,6 +1,5 @@
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\utility\DatagramServer.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\utility\Pair.java
-C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\managers\ZonedDateTimeAdapter.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\Help.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\managers\CollectionManager.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\Register.java
@@ -8,7 +7,6 @@ C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\ma
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\Exit.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\managers\ConnectionManagerPool.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\AverageOfExpelledStudents.java
-C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\managers\FileManager.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\exceptions\OpeningServerException.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\utility\Console.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\RemoveGreater.java
@@ -16,6 +14,7 @@ C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\ma
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\CollectionEditor.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\RemoveById.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\utility\RequestHandler.java
+C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\exceptions\DisconnectClient.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\utility\BlankConsole.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\Command.java
 C:\Users\ulian\Рабочий стол\study\itmo\programming\lab7\server\src\main\java\commands\ExecuteScript.java

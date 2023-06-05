@@ -16,7 +16,7 @@ import java.util.concurrent.*;
 
 public class ConnectionManager implements Runnable {
     private final CommandManager commandManager;
-    private final ExecutorService fixedThreadPool = Executors.newFixedThreadPool(8);
+    private static final ExecutorService fixedThreadPool = Executors.newFixedThreadPool(8);   //!!!!!!!!!!!!!!!!!!!!!
     private DatagramSocket socket;
     private static SocketAddress clientAddr;
     private final DatabaseManager databaseManager;

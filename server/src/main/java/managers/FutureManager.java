@@ -20,6 +20,7 @@ public class FutureManager {
     }
 
     public static void checkAllFutures() {
+
         if(!fixedThreadPoolFutures.isEmpty()) {
             fixedThreadPoolFutures.forEach(s -> futureManagerLogger.debug(s.toString()));
         }
