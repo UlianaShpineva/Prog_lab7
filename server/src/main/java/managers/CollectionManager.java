@@ -124,10 +124,11 @@ public class CollectionManager {
      * @param newElement Новый элемент
      * @throws InvalidForm Элемент отсутствует
      */
-    public synchronized void editById(int id, StudyGroup newElement) {//throws InvalidForm{
+    public synchronized void editById(int id, StudyGroup newElement, String userLogin) {
         StudyGroup pastElement = this.getById(id);
         this.removeElement(pastElement);
         newElement.setId(id);
+        newElement.setUserLogin(userLogin);
         this.addElement(newElement);
         StudyGroup.updateId(this.getCollection());
         collectionManagerLogger.info("Объект с айди " + id + " изменен", newElement);

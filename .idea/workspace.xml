@@ -6,25 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5ba951b2-df2d-47ec-a1c1-32819886c663" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AHAHAHHAH" beforeDir="false" afterPath="$PROJECT_DIR$/AHAHAHHAH" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/client-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/ConnectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/FutureManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/FutureManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/ConnectionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/ConnectionManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/FutureManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/FutureManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/classes/utility/DatagramServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/utility/DatagramServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/lib/client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/lib/client-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/lib/common-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/lib/common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/target/server-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/server-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/forms/StudyGroupForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/forms/StudyGroupForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/commands/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/commands/Update.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/CollectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/CollectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/DatabaseCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/DatabaseCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/managers/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/managers/DatabaseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/target/classes/managers/DatabaseManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/server/target/classes/managers/DatabaseManager.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +107,12 @@
       <workItem from="1684926499725" duration="5358000" />
       <workItem from="1685385060969" duration="2891000" />
       <workItem from="1685804323028" duration="77000" />
+      <workItem from="1685963265316" duration="1950000" />
+      <workItem from="1686211245772" duration="560000" />
+      <workItem from="1686215876943" duration="1970000" />
+      <workItem from="1686319467723" duration="11000" />
+      <workItem from="1686602392087" duration="1397000" />
+      <workItem from="1686900026676" duration="3178000" />
     </task>
     <servers />
   </component>

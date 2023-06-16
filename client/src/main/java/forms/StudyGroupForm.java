@@ -139,13 +139,15 @@ public class StudyGroupForm extends Form<StudyGroup> {
      */
     @Override
     public StudyGroup build() {
-        return new StudyGroup(askName(),
+        return new StudyGroup(
+                askName(),
                 askCoordinates(),
                 ZonedDateTime.now(),
                 askStudentsCount(),
                 askExpelledStudents(),
                 askTransferredStudents(),
                 askFormOfEducation(),
-                askGroupAdmin());
+                askGroupAdmin()
+        );
     }
 }

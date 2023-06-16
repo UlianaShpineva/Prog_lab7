@@ -47,6 +47,7 @@ public class DatabaseManager {
             try{
 
                 connection = DriverManager.getConnection(App.DATABASE_URL_HELIOS, info);
+                databaseLogger.info("Успешно подключен к базе данных");
             } catch (SQLException ex) {
                 databaseLogger.fatal("Невозможно подключиться к базе данных");
                 databaseLogger.warn(e);
@@ -177,9 +178,10 @@ public class DatabaseManager {
             ps.setInt(13, studyGroup.getGroupAdmin().getLocation().getY());
             ps.setDouble(14, studyGroup.getGroupAdmin().getLocation().getZ());
             ps.setString(15, studyGroup.getGroupAdmin().getLocation().getName());
+            ps.setString(16, user.name());
 
-            ps.setInt(16, id);
-            ps.setString(17, user.name());
+            ps.setInt(17, id);
+            ps.setString(18, user.name());
             ResultSet resultSet = ps.executeQuery();
             System.out.println(resultSet);
             return resultSet.next();

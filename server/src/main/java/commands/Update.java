@@ -38,7 +38,8 @@ public class Update extends Command implements CollectionEditor {
                 return new Response(ResponseStatus.ASK_OBJECT, "Для команды " + this.getName() + " требуется объект");
             }
             if(DatabaseHandler.getDatabaseManager().updateObject(id, request.getObject(), request.getUser())) {
-                collectionManager.editById(id, request.getObject());
+                collectionManager.editById(id, request.getObject(), request.getObject().getUserLogin());
+//                System.out.println(request.getObject().getUserLogin());
                 return new Response(ResponseStatus.OK, "Объект успешно обновлен");
             }
             return new Response(ResponseStatus.ERROR, "Объект не обновлен");

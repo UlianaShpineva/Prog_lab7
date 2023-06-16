@@ -65,7 +65,7 @@ public class DatabaseCommands {
 
     public static final String updateUserObject = """
             UPDATE studyGroup
-            SET (group_name, cord_x, cord_y, creation_date, students_count, expelled_students, transferred_students, form_of_education, person_name, person_passport_ID, person_nationality, person_location_x, person_location_y, person_location_z, person_location_name)
+            SET (group_name, cord_x, cord_y, creation_date, students_count, expelled_students, transferred_students, form_of_education, person_name, person_passport_ID, person_nationality, person_location_x, person_location_y, person_location_z, person_location_name, owner_login)
              = (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             WHERE (id = ?) AND (owner_login = ?)
             RETURNING id;
