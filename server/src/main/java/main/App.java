@@ -20,7 +20,7 @@ public class App {
 
 
 
-    public static int port = 6094;
+    public static int port = 60940;
     public static final int connection_timeout = 60 * 1000;
     public static Logger logger = LogManager.getLogger(App.class);
     public static void main(String[] args) {

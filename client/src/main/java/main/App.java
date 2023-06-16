@@ -9,7 +9,7 @@ import java.net.InetAddress;
 import java.util.Scanner;
 
 public class App {
-    private static final int port = 6094;
+    private static final int port = 60940;
     private static Console console;
     public static void main(String[] args) {
         console = new Console();
